@@ -13,7 +13,7 @@ interface CurrenciesInputProps {
   placeholder: string;
 }
 
-const CurrenciesInput: React.FC<CurrenciesInputProps> = ({
+const CurrenciesInput = ({
   value,
   setValue,
   isOutput,

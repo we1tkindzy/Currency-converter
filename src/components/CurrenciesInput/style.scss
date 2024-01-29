@@ -1,0 +1,27 @@
+@import "styles/colors";
+@import "styles/viewports";
+
+.currencies-input {
+  height: 40px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  border: 2px solid $secondary;
+  border-right: none;
+  text-align: right;
+  font-size: 20px;
+  color: $primary;
+  padding: 0 10px;
+}
+
+@media (max-width: $desktop) {
+  .currencies-input {
+    font-size: 16px;
+    width: 120px;
+  }
+}
+
+@media (max-width: $tablet) {
+  .currencies-input {
+    width: max-content;
+  }
+}
